@@ -10,7 +10,8 @@
     background-color: #00ffff;
 }
 
-.card-img, .card-img-top {
+.card-img,
+.card-img-top {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
@@ -34,4 +35,9 @@
 
 .colorNav {
     background-color: grey;
+}
+
+.carouselPadre {
+    width: 80vw;
+    margin: 0 auto;
 }
