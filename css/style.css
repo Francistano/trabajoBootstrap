@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 3px;
+    --bs-card-border-radius: 0;
+    background-color: #00ffff;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-primary {
+    background-color: #a52a2a;
+    color: #ffffff;
+    --bs-btn-border-radius: 0;
+    border: 1px solid #1900ff;
+}
+
+.btn-primary:hover {
+    background-color: #ffe4c4;
+    color: #000000;
+    border: 1px solid #ff0000;
+}
+
+.row {
+    justify-content: space-around;
+}
