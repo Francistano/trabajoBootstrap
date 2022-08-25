@@ -31,3 +31,7 @@
 .row {
     justify-content: space-around;
 }
+
+.colorNav {
+    background-color: grey;
+}
